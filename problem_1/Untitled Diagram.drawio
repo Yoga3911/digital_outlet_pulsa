@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-13T02:59:21.645Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.33" etag="FSyfQ1hMOO97AMmuyNJg" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-13T04:00:25.368Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.33" etag="P6A6Dlhol8maW0-2Fk0n" version="20.3.0" type="github">
   <diagram id="Ic3U0zycKqxHXsZPilbR" name="Page-1">
     <mxGraphModel dx="1673" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -52,8 +52,8 @@
         <mxCell id="KuLTYWURa4KICVwksqAR-26" value="updated_at DATETIME" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="KuLTYWURa4KICVwksqAR-19">
           <mxGeometry y="240" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KuLTYWURa4KICVwksqAR-29" value="detail_transaction" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry y="420" width="170" height="180" as="geometry" />
+        <mxCell id="KuLTYWURa4KICVwksqAR-29" value="transaction" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry y="420" width="170" height="120" as="geometry" />
         </mxCell>
         <mxCell id="KuLTYWURa4KICVwksqAR-30" value="PK id INT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="KuLTYWURa4KICVwksqAR-29">
           <mxGeometry y="30" width="170" height="30" as="geometry" />
@@ -61,17 +61,11 @@
         <mxCell id="KuLTYWURa4KICVwksqAR-32" value="FK detail_item_id INT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="KuLTYWURa4KICVwksqAR-29">
           <mxGeometry y="60" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KuLTYWURa4KICVwksqAR-55" value="quantity INT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="KuLTYWURa4KICVwksqAR-29">
+        <mxCell id="KuLTYWURa4KICVwksqAR-58" value="FK status_id INT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="KuLTYWURa4KICVwksqAR-29">
           <mxGeometry y="90" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KuLTYWURa4KICVwksqAR-56" value="transaction_date DATETIME" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="KuLTYWURa4KICVwksqAR-29">
-          <mxGeometry y="120" width="170" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="KuLTYWURa4KICVwksqAR-58" value="FK status_id INT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="KuLTYWURa4KICVwksqAR-29">
-          <mxGeometry y="150" width="170" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="KuLTYWURa4KICVwksqAR-33" value="transaction" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="280" y="410" width="160" height="120" as="geometry" />
+        <mxCell id="KuLTYWURa4KICVwksqAR-33" value="detail_transaction" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="410" width="160" height="180" as="geometry" />
         </mxCell>
         <mxCell id="KuLTYWURa4KICVwksqAR-34" value="PK id INT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="KuLTYWURa4KICVwksqAR-33">
           <mxGeometry y="30" width="160" height="30" as="geometry" />
@@ -81,6 +75,12 @@
         </mxCell>
         <mxCell id="KuLTYWURa4KICVwksqAR-36" value="FK transaction_id INT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="KuLTYWURa4KICVwksqAR-33">
           <mxGeometry y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KuLTYWURa4KICVwksqAR-66" value="transaction_date DATETIME" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="KuLTYWURa4KICVwksqAR-33">
+          <mxGeometry y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KuLTYWURa4KICVwksqAR-67" value="quantity INT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="KuLTYWURa4KICVwksqAR-33">
+          <mxGeometry y="150" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KuLTYWURa4KICVwksqAR-37" value="product_type" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="-270" y="100" width="170" height="90" as="geometry" />
@@ -127,9 +127,9 @@
             <mxPoint x="190" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KuLTYWURa4KICVwksqAR-50" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.844;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KuLTYWURa4KICVwksqAR-55" target="KuLTYWURa4KICVwksqAR-36">
+        <mxCell id="KuLTYWURa4KICVwksqAR-50" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.844;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="KuLTYWURa4KICVwksqAR-36">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="180" y="500" as="sourcePoint" />
+            <mxPoint x="170" y="535.3199999999999" as="sourcePoint" />
             <mxPoint x="260" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
