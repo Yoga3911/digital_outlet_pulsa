@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-13T01:44:42.644Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.33" etag="FzKuppLTqASDdOU3HC_J" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-13T02:59:21.645Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.33" etag="FSyfQ1hMOO97AMmuyNJg" version="20.3.0" type="github">
   <diagram id="Ic3U0zycKqxHXsZPilbR" name="Page-1">
-    <mxGraphModel dx="2153" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -83,31 +83,31 @@
           <mxGeometry y="90" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KuLTYWURa4KICVwksqAR-37" value="product_type" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-240" y="100" width="140" height="90" as="geometry" />
+          <mxGeometry x="-270" y="100" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="KuLTYWURa4KICVwksqAR-38" value="PK id INT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="KuLTYWURa4KICVwksqAR-37">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
+          <mxGeometry y="30" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KuLTYWURa4KICVwksqAR-39" value="product_type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="KuLTYWURa4KICVwksqAR-37">
-          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        <mxCell id="KuLTYWURa4KICVwksqAR-39" value="product_type VARCHAR(50)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="KuLTYWURa4KICVwksqAR-37">
+          <mxGeometry y="60" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KuLTYWURa4KICVwksqAR-41" value="product_operator" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-240" y="230" width="140" height="90" as="geometry" />
+          <mxGeometry x="-300" y="230" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="KuLTYWURa4KICVwksqAR-42" value="PK id INT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="KuLTYWURa4KICVwksqAR-41">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
+          <mxGeometry y="30" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KuLTYWURa4KICVwksqAR-43" value="product_operator" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="KuLTYWURa4KICVwksqAR-41">
-          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        <mxCell id="KuLTYWURa4KICVwksqAR-43" value="product_operator VARCHAR(50)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="KuLTYWURa4KICVwksqAR-41">
+          <mxGeometry y="60" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KuLTYWURa4KICVwksqAR-44" value="payment_method" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-240" y="370" width="140" height="90" as="geometry" />
+          <mxGeometry x="-270" y="370" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="KuLTYWURa4KICVwksqAR-45" value="PK id INT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="KuLTYWURa4KICVwksqAR-44">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
+          <mxGeometry y="30" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KuLTYWURa4KICVwksqAR-46" value="payment_method" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="KuLTYWURa4KICVwksqAR-44">
-          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        <mxCell id="KuLTYWURa4KICVwksqAR-46" value="payment_method VARCHAR(50)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="KuLTYWURa4KICVwksqAR-44">
+          <mxGeometry y="60" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KuLTYWURa4KICVwksqAR-47" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;" edge="1" parent="1" target="KuLTYWURa4KICVwksqAR-17">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
