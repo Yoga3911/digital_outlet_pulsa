@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-13T04:00:25.368Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.33" etag="P6A6Dlhol8maW0-2Fk0n" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-13T04:28:11.215Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.33" etag="E5jfPCpA83IXkhuCUq18" version="20.3.0" type="github">
   <diagram id="Ic3U0zycKqxHXsZPilbR" name="Page-1">
     <mxGraphModel dx="1673" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -158,6 +158,36 @@
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="240" y="680" as="sourcePoint" />
             <mxPoint x="340" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuLTYWURa4KICVwksqAR-68" value="gender" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="640" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KuLTYWURa4KICVwksqAR-69" value="PK id INT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="KuLTYWURa4KICVwksqAR-68">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KuLTYWURa4KICVwksqAR-70" value="gender VARCHAR(15)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="KuLTYWURa4KICVwksqAR-68">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KuLTYWURa4KICVwksqAR-71" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KuLTYWURa4KICVwksqAR-68" target="KuLTYWURa4KICVwksqAR-24">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="750" y="660" as="sourcePoint" />
+            <mxPoint x="640" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuLTYWURa4KICVwksqAR-73" value="status_user" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="400" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KuLTYWURa4KICVwksqAR-74" value="PK id INT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="KuLTYWURa4KICVwksqAR-73">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KuLTYWURa4KICVwksqAR-75" value="status VARCHAR(50)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="KuLTYWURa4KICVwksqAR-73">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KuLTYWURa4KICVwksqAR-76" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="KuLTYWURa4KICVwksqAR-73" target="KuLTYWURa4KICVwksqAR-23">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="740" y="695" as="sourcePoint" />
+            <mxPoint x="700" y="565" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
